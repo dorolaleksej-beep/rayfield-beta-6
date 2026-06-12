@@ -30,7 +30,7 @@ local Players = game:GetService("Players")
 local CoreGui = game:GetService("CoreGui")
 
 -- Interface Management
-local Rayfield = game:GetObjects("rbxassetid://10804731440")[1]
+local Rayfield = getobjects("rbxassetid://10804731440")[1]
 
 if gethui then
 	Rayfield.Parent = gethui()
